@@ -9,7 +9,7 @@
 @import url(pecan.css);
 
 :root {
-  /*this changes xanthia appearance 
+  /* this changes xanthia appearance
   when pecan is running with no config */
   --default-xanthia-font-size: 12px;
   --default-xanthia-font-family: Menlo;
@@ -30,10 +30,7 @@
     var(--padding-right, 10px) + calc(var(--text-padding, 1ch) * 4) + 14ch +
       calc(var(--border, 3px) * 3)
   );
-  --default-background-xanthia: var(
-    --background-xanthia,
-    var(--color4, #222)
-  );
+  --default-background-xanthia: var(--background-xanthia, var(--color4, #222));
   --default-foreground-xanthia: var(
     --foreground-xanthia,
     var(--background, #eee)
@@ -42,17 +39,16 @@
   --default-border-radius-right-xanthia: 0px;
   --default-shadow-xanthia: 0px 1px 1px 1px rgba(0, 0, 0, 0.18);
 
-	/*landscape*/
-	--default-height-landscape: calc(
-		var(--height, 36px) - var(--border, 3px) * 2
-	);
-	--default-margin-landscape: calc(
-	var(--padding-top, 10px) + var(--border, 3px)
-	);
-	--default-border-landscape: var(--border, 3px);
-	--default-border-radius-landscape: var(--border-radius-inner, 3px);
-	--default-shadow-landscape: 0px 1px 1px 1px rgba(0, 0, 0, 0.18);
-
+  /*landscape*/
+  --default-height-landscape: calc(
+    var(--height, 36px) - var(--border, 3px) * 2
+  );
+  --default-margin-landscape: calc(
+    var(--padding-top, 10px) + var(--border, 3px)
+  );
+  --default-border-landscape: var(--border, 3px);
+  --default-border-radius-landscape: var(--border-radius-inner, 3px);
+  --default-shadow-landscape: 0px 1px 1px 1px rgba(0, 0, 0, 0.18);
 }
 
 /* get monitor width */
@@ -78,7 +74,7 @@
   margin-left: var(--padding-left, 10px);
   opacity: var(--opacity, 1);
   z-index: -1;
-  box-shadow: var(--shadow, 0px 4px 10px 4px rgba(0, 0, 0, 0.0));
+  box-shadow: var(--shadow, 0px 4px 10px 4px rgba(0, 0, 0, 0));
   border-top-left-radius: var(--border-radius, 4px);
   border-top-right-radius: var(--border-radius, 4px);
   border-bottom-right-radius: var(--border-radius, 4px);
@@ -118,8 +114,9 @@
   margin-top: calc(var(--padding-top, 10px) + var(--border, 3px));
   margin-bottom: calc(var(--padding-top, 10px) + var(--border, 3px));
   margin-left: calc(
-	var(--padding-left, 10px) + var(--border, 3px) + var(--landscape-width-total, 0px)
-	);
+    var(--padding-left, 10px) + var(--border, 3px) +
+      var(--landscape-width-total, 0px)
+  );
   line-height: calc(var(--height, 36px) - calc(var(--border, 3px) * 2));
   border-top-left-radius: var(--border-radius-inner, 3px);
   border-top-right-radius: var(--border-radius-inner, 3px);
@@ -145,9 +142,8 @@
   margin-top: calc(var(--border, 3px) + var(--padding-top, 10px));
   margin-bottom: calc(var(--border, 3px) + var(--padding-top, 10px));
   margin-left: calc(
-		var(--landscape-width-total, 0px) + 
-    var(--padding-left, 10px) + calc(var(--text-padding, 1ch) * 2) + 1ch +
-      calc(var(--border, 3px) * 2)
+    var(--landscape-width-total, 0px) + var(--padding-left, 10px) +
+      calc(var(--text-padding, 1ch) * 2) + 1ch + calc(var(--border, 3px) * 2)
   );
   line-height: calc(var(--height, 36px) - calc(var(--border, 3px) * 2));
   border-top-left-radius: var(--border-radius-inner, 3px);
@@ -188,9 +184,9 @@
   margin-top: calc(var(--border, 3px) + var(--padding-top, 10px));
   margin-bottom: calc(var(--border, 3px) + var(--padding-top, 10px));
   margin-left: calc(
-		var(--landscape-width-total, 0px) + 
-    var(--padding-left, 10px) + calc(var(--text-padding, 1ch) * 4) + 1ch +
-      calc(var(--border, 3px) * 3) + 16ch
+    var(--landscape-width-total, 0px) + var(--padding-left, 10px) +
+      calc(var(--text-padding, 1ch) * 4) + 1ch + calc(var(--border, 3px) * 3) +
+      16ch
   );
   line-height: calc(var(--height, 36px) - calc(var(--border, 3px) * 2));
   border-top-left-radius: var(--border-radius-inner, 3px);

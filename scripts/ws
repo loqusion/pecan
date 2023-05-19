@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
-ps cax | grep yabai > /dev/null
-if [ $? -eq 0 ]; then
-  /usr/local/bin/yabai -m query --spaces --space | grep index | sed 's/[^0-9]*//g'
+if ps cax | grep yabai >/dev/null; then
+	"${HOMEBREW_PREFIX:-/opt/homebrew}/bin/yabai" -m query --spaces --space | grep index | sed 's/[^0-9]*//g'
 else
-  echo ""
+	echo ""
 fi
-

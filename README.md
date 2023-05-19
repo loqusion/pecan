@@ -1,4 +1,3 @@
-
 # pecan
 
 ![Screenshot 1](/screenshots/1.jpg)
@@ -9,7 +8,7 @@ A bar for macOS. Reports — by default — the current workspace, cpu load, net
 
 ## Instructions
 
-*pecan* requires [Übersicht](http://tracesof.net/uebersicht/).
+_pecan_ requires [Übersicht](http://tracesof.net/uebersicht/).
 
 Once Übersicht is installed, download this repository to wherever your widgets are stored (by default ~/Library/Application Support/Übersicht/widgets/).
 
@@ -39,11 +38,11 @@ mv "$HOME/Library/Application Support/Übersicht/widgets/pecan/config.css" "${HO
 
 ![Screenshot 2](/screenshots/2.jpg)
 
-This is *pecan*'s default appearance with *ifstat*, *yabai*, [*xanthia*](https://github.com/zzzeyez/xanthia/) and [*landscape*](https://github.com/zzzeyez/landscape/) installed.
+This is _pecan_'s default appearance with _ifstat_, _yabai_, [_xanthia_](https://github.com/zzzeyez/xanthia/) and [_landscape_](https://github.com/zzzeyez/landscape/) installed.
 
 ### Ifstat
 
-*Ifstat* displays current upload and download speeds.  Current download and upload speeds may be shown in the 2nd-to-left element via *Ifstat*. If *Ifstat* is not found, then the current WiFi network will be displayed instead. To install *Ifstat via* Homebrew:
+_Ifstat_ displays current upload and download speeds. Current download and upload speeds may be shown in the 2nd-to-left element via _Ifstat_. If _Ifstat_ is not found, then the current WiFi network will be displayed instead. To install _Ifstat via_ Homebrew:
 
 ```sh
 brew install ifstat
@@ -51,7 +50,7 @@ brew install ifstat
 
 ### Yabai
 
-*Yabai* is a window manager.  Current workspace ID can be shown on the left element if [*Yabai*](https://github.com/koekeishiya/yabai) is installed, otherwise a power symbol will be shown instead. To install *Yabai*:
+_Yabai_ is a window manager. Current workspace ID can be shown on the left element if [_Yabai_](https://github.com/koekeishiya/yabai) is installed, otherwise a power symbol will be shown instead. To install _Yabai_:
 
 ```sh
 brew install yabai
@@ -59,17 +58,16 @@ brew install yabai
 
 ### xanthia
 
-*xanthia* is a notification system.  If *xanthia* is installed then it will display notifications on the left (useful for showing current song playing, chat notifications, etc.)  *xanthia* will use *pecan*'s config at `~/.config/pecan.css`. Install [*xanthia*](https://github.com/zzzeyez/xanthia/blob/master/README.md#Installation).
+_xanthia_ is a notification system. If _xanthia_ is installed then it will display notifications on the left (useful for showing current song playing, chat notifications, etc.) _xanthia_ will use _pecan_'s config at `~/.config/pecan.css`. Install [_xanthia_](https://github.com/zzzeyez/xanthia/blob/master/README.md#Installation).
 
 ### landscape
 
-*landscape* is a workspace selector.  If *landscape* is installed then it will display clickablle images of available workspaces on the left. *landscape* will use *pecan*'s config at `~/.config/pecan.css`.  Install [*landscape*](https://github.com/zzzeyez/xanthia/blob/master/README.md#Installation).
+_landscape_ is a workspace selector. If _landscape_ is installed then it will display clickablle images of available workspaces on the left. _landscape_ will use _pecan_'s config at `~/.config/pecan.css`. Install [_landscape_](https://github.com/zzzeyez/xanthia/blob/master/README.md#Installation).
 
 ### pywal
 
 ![Screenshot 3](/screenshots/3.jpg)
 
-This is *pecan* with all optional features and [*pywal*](https://github.com/dylanaraps/pywal/tree/master/pywal) installed.
+This is _pecan_ with all optional features and [_pywal_](https://github.com/dylanaraps/pywal/tree/master/pywal) installed.
 
-*Pywal* is a system colorscheme manager.  If *Pywal* is installed then *pecan* will grab it's colors from that by default.
-
+_Pywal_ is a system colorscheme manager. If _Pywal_ is installed then _pecan_ will grab it's colors from that by default.
